@@ -4,6 +4,10 @@ body{
     line-height: 1,2px;
     background:#fffee7 ;
 }
+h1{
+    font-family: "Merriweather", serif;
+    text-align: center;
+}
 .navbar{
     background-color: #ff9179;
     color:#000;
@@ -19,4 +23,10 @@ a{
     text-decoration: none;
     color:#000;
     overflow-x: hidden;
+}
+img{
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: 10rem;
 }
