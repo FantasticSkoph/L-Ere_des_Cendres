@@ -7,6 +7,7 @@ body{
 h1{
     font-family: "Merriweather", serif;
     text-align: center;
+    font-size: 36px;
 }
 .navbar{
     background-color: #ff9179;
@@ -14,6 +15,7 @@ h1{
     top:0;
     left: 0;
     width: 100%;
+    top: 0;
     position:sticky;
 }
 a{
@@ -25,8 +27,19 @@ a{
     overflow-x: hidden;
 }
 img{
+    display: block;
+    margin:auto;
     max-width: 75%;
     height: auto;
+}
+.page{
     display: block;
-    margin-left: 25%;
+    margin:auto;
+    max-width: 75%;
+    height: auto;
+}
+.link{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
