@@ -16,10 +16,11 @@ h1{
     margin-bottom: 3rem;
 }
 .navbar{
-    top: 0;
+    z-index: 0;
     position: sticky;
     text-decoration: none;
-    overflow-x: wrap;
+    padding: 1.5rem;
+    background-color: #FFC585;
 }
 a{
     font-family: "Merriweather", serif;
