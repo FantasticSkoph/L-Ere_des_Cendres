@@ -50,3 +50,7 @@ a{
 .nav{
     margin: 2rem;
 }
+footer{
+    padding: 0.1rem;
+    background-color: #FFC585;
+}
