@@ -55,3 +55,14 @@ footer{
     background-color: #FFC585;
     z-index: 0;
 }
+.summary{
+    margin-left:15rem;
+    margin-right:15rem;
+}
+
+@media (max-width: 768px) {
+    .summary{
+        margin-left:2rem;
+        margin-right:2rem;
+    }
+}
