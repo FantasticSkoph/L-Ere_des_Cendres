@@ -1,68 +1,104 @@
-body{
-    font-family: "Merriweather", serif;
+body {
+    font-family: "Merriweather", serif !important;
     text-align: center;
-    line-height: 1,2px;
+    line-height: 1, 2px;
 }
-h1{
-    font-family: "Merriweather", serif;
+
+h1 {
+    font-family: "Merriweather", serif !important;
     text-align: center;
     font-size: 36px;
 }
-.title{
-    display:block;
-    margin:auto;
+
+.title {
+    display: block;
+    margin: auto;
     max-width: 30rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
-a{
-    font-family: "Merriweather", serif;
+
+a {
+    font-family: "Merriweather", serif !important;
     text-align: center;
-    line-height: 1,2px;
+    line-height: 1, 2px;
     text-decoration: none;
-    color:#000;
+    color: #000;
     overflow-x: hidden;
 }
-.content{
-    display: block;
-    margin:auto;
+
+.content {
+    margin: auto;
     max-width: 75%;
     height: auto;
 }
-.page{
+
+.page {
     display: block;
-    margin:auto;
+    margin: auto;
     max-width: 75%;
     height: auto;
 }
-.link{
-    display:flex;
+
+.link {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.nav{
-    margin: 2rem;
+
+nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+    background: #FFC585 !important;
+    color: #3f0700;
+    list-style-type: none !important;
 }
-header{
+
+.navigation {
+    display: block;
+    text-align: center !important;
+    padding: 10px 20px;
+    font-size: 24px;
+}
+
+.navigation:hover {
+    flex-wrap: wrap;
+    text-decoration: underline !important;
+    text-decoration-color: #3f0700;
+}
+
+header {
     z-index: 0;
-    position: sticky;
     text-decoration: none;
-    padding: 1rem;
-    background-color: #FFC585;
 }
-footer{
-    padding: 0.1rem;
-    background-color: #FFC585;
-    z-index: 0;
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #FFC585;
+    height: 50px;
+    text-align: center;
 }
-.summary{
-    margin-left:15rem;
-    margin-right:15rem;
+
+.footer-text {
+    padding-top: 1rem;
+}
+
+.summary {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    vertical-align: middle;
 }
 
 @media (max-width: 768px) {
-    .summary{
-        margin-left:2rem;
-        margin-right:2rem;
+    .summary {
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 }
